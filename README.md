@@ -32,8 +32,17 @@ Some features were added in between the main features development.
 To run the project in your local environment, follow these steps:
 
 1. Clone the repository to your local machine.
-2. Run `npm install` or `yarn` in the project directory to install the required dependencies.
-3. Run `npm run start` or `yarn start` to get the project started.
+2. Run `npm install` in the project directory to install the required dependencies.
+3. Run `npm run start` to get the project started.
+
+To build for android, run this command: 
+1. `npm run build:android`
+
+To build for ios, run this command: 
+1. `npm run build:ios`
+
+
+
 
 ## 📱 ScreenShots
 <table>
