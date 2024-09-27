@@ -1,50 +1,46 @@
-# Welcome to your Expo app 👋
+## Expo Users List - An Expo demo to display a list of users
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Expo Users List a simple react native app contains home screen, a list of all users with the ability to display user details in a modal or in a new screen. It is built using:
 
-## Get started
+- React Native
+- Expo
+- TypeScript
+- Zustand
+- React Native Modal
+- React Native Elements
 
-1. Install dependencies
+## 👾 Features
 
-   ```bash
-   npm install
-   ```
+- Fetch and display a list of users in a scrollable view, each user in a card with username and email
+- Display the details of a specefic user in a modal.
+- Fetch and display a user with id in a new screen.
 
-2. Start the app
+## 📒 Process
 
-   ```bash
-    npx expo start
-   ```
+I started by implementing the functionality of fetching and displaying a list of users. Next, I added the ability to open a specefic user info in a modal component. Afterwards, I focused on the capability to fetch and display a user's details with id in a new screen.
 
-In the output, you'll find options to open the app in a
+Then I styled the board, drawing inspiration from modern UI systems boards, based on my experience.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+Subsequently, I performed some small refactoring and styling touch-ups.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+Some features were added in between the main features development.
 
-## Get a fresh project
+**NOTE:** The project's purpose is demonstrate the use of React Native, Expo, TypeScript, Zustand, React Native Elements and React Native Modal.
 
-When you're ready, run:
+## 🚦 Running the Project
 
-```bash
-npm run reset-project
-```
+To run the project in your local environment, follow these steps:
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+1. Clone the repository to your local machine.
+2. Run `npm install` or `yarn` in the project directory to install the required dependencies.
+3. Run `npm run start` or `yarn start` to get the project started.
 
-## Learn more
+## 📱 ScreenShots
+<table>
+  <tr>
+<td><img src="./screenshots/home.jpg" width="250" alt="Home Page"></td>
+<td><img src="./screenshots/modal.jpg" width="250" alt="Modal"></td>
+<td><img src="./screenshots/details.jpg" width="250" alt="Details Page"></td>
+  </tr>
+</table>
 
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
