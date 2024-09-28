@@ -93,6 +93,8 @@ export default function HomeScreen() {
         animationIn={'slideInUp'}
         deviceWidth={deviceWidth}
         deviceHeight={deviceHeight}
+        animationInTiming={700}
+        animationOutTiming={700}
       >
           <View style={styles.detailsContainer}>
             <ThemedText type='title'>{selectedUser?.name}</ThemedText>
