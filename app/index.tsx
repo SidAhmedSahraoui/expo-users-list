@@ -191,11 +191,11 @@ const styles = StyleSheet.create({
   },
   modal: {
     backgroundColor: '#150f26',
+    padding: 20,
+    margin: 0,
     borderColor: '#323844',
     borderWidth: 2,
-    borderRadius: 12,
-    margin: 'auto',
-    height: '20%'
+    borderRadius: 12,    
   },
   modalButtons: {
     display: 'flex',
