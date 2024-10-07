@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { StyleSheet, View, Dimensions, Platform } from 'react-native';
+import { StyleSheet, View, Dimensions } from 'react-native';
 
 // components
 import ParallaxScrollView from '@/components/ParallaxScrollView';
